@@ -18,7 +18,7 @@ class _VangtiChaiState extends State<VangtiChai> {
   int amount = 0;
   final List<int> notes = [500, 100, 50, 20, 10, 5, 2, 1];
 
-  // Teal color matching the screenshot
+  
   static const Color tealColor = Color(0xFF00897B);
 
   void addDigit(int digit) {
@@ -78,7 +78,7 @@ class _VangtiChaiState extends State<VangtiChai> {
             ),
           ),
         ),
-        // Notes list + Keypad side by side
+        
         Expanded(
           child: Row(
             children: [
@@ -99,7 +99,7 @@ class _VangtiChaiState extends State<VangtiChai> {
                   ),
                 ),
               ),
-              // Keypad (3 columns)
+              
               Expanded(
                 flex: 3,
                 child: _buildPortraitKeypad(),
@@ -112,7 +112,7 @@ class _VangtiChaiState extends State<VangtiChai> {
   }
 
   Widget _buildPortraitKeypad() {
-    // Portrait: 3 columns — 1..9 then 0, CLEAR
+    
     final buttons = <_KeyItem>[
       for (int d = 1; d <= 9; d++) _KeyItem(label: '$d', onTap: () => addDigit(d)),
       _KeyItem(label: '0', onTap: () => addDigit(0)),
@@ -138,7 +138,7 @@ class _VangtiChaiState extends State<VangtiChai> {
     final change = calculateChange();
     return Row(
       children: [
-        // Left: Amount + Notes (split two columns)
+        
         Expanded(
           flex: 5,
           child: Column(
@@ -162,7 +162,7 @@ class _VangtiChaiState extends State<VangtiChai> {
             ],
           ),
         ),
-        // Right: Keypad (4 columns)
+        
         Expanded(
           flex: 4,
           child: _buildLandscapeKeypad(),
@@ -172,7 +172,7 @@ class _VangtiChaiState extends State<VangtiChai> {
   }
 
   Widget _buildLandscapeNotes(Map<int, int> change) {
-    // Split 8 notes into two columns of 4
+    
     final left = notes.sublist(0, 4);
     final right = notes.sublist(4);
 
@@ -203,7 +203,7 @@ class _VangtiChaiState extends State<VangtiChai> {
   }
 
   Widget _buildLandscapeKeypad() {
-    // Landscape: 4 columns — 1..9, 0, CLEAR (3 rows)
+    
     final buttons = <_KeyItem>[
       for (int d = 1; d <= 9; d++) _KeyItem(label: '$d', onTap: () => addDigit(d)),
       _KeyItem(label: '0', onTap: () => addDigit(0)),
@@ -223,7 +223,7 @@ class _VangtiChaiState extends State<VangtiChai> {
     );
   }
 
-  // ──────────────────────────────── SHARED ──────────────────────────────────
+  
 
   Widget _buildKeyButton(String label, VoidCallback onTap) {
     return Material(
@@ -253,4 +253,5 @@ class _KeyItem {
   final VoidCallback onTap;
   final bool wide;
   const _KeyItem({required this.label, required this.onTap, this.wide = false});
+
 }
