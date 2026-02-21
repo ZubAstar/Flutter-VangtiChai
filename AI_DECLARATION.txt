@@ -1,0 +1,65 @@
+============================================================
+           AI USAGE DECLARATION
+============================================================
+
+Name: Md. Zubayer Hasan
+Student ID: 22301407
+Assignment: 1
+Date: 22/2/2026
+
+------------------------------------------------------------
+1. AI TOOLS USED (check all that apply)
+------------------------------------------------------------
+[ ] None
+[Y] ChatGPT
+[ ] GitHub Copilot
+[ ] Google Gemini
+[Y] Claude
+[ ] Cursor
+[ ] Other: ________________
+
+------------------------------------------------------------
+2. PURPOSE OF AI USE (check all that apply)
+------------------------------------------------------------
+[Y] Learning/understanding concepts
+[Y] Debugging my code
+[ ] Generating code snippets
+[ ] Writing text content
+[Y] Design/styling ideas
+[ ] Image generation
+[ ] Other: ________________
+
+------------------------------------------------------------
+3. DESCRIPTION OF AI USE
+------------------------------------------------------------
+Briefly describe what you used AI for and how:
+
+firstly I used a youtube course to understand Flutter and android studio, then I worked on some simple projects then I did the assignment using a lot of AI help. Firstly I asked ChatGPT how shall I do the work with my current knowledge. As I'm a bit weak in stateful widgets I needed much help. I understood how can I use Maps, Lists in order to store my values. Used AI to debug my codes as well. Then when my rough code was complete I submitted to Claude to refurbish it.
+
+
+
+
+------------------------------------------------------------
+4. AI-ASSISTED SECTIONS
+------------------------------------------------------------
+List specific files/sections where AI helped significantly:
+
+File: _________Main________ Section: ___Separating horizontal and vertical formats______________
+File: _________________ Section: ________Making the calculation_________
+File: _________________ Section: _______the code structure and basic functionality usages__________
+
+------------------------------------------------------------
+5. DECLARATION
+------------------------------------------------------------
+I declare that:
+- This disclosure is complete and accurate
+- I understand all code in my submission
+- I can explain and modify my work if asked
+- I take full responsibility for my submission
+
+Signature: _________Zubayer______________
+Date: ____________22/2/2026_______________
+
+============================================================
+Save as: docs/AI_Declaration.txt
+============================================================
